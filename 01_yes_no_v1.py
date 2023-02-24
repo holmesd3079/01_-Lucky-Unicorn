@@ -1,5 +1,6 @@
+show_instructions = ""
+while show_instructions != "xxx":
 
-while True:
     show_instructions = input("Do you want to see the instructions? ").lower()
 
     if show_instructions == "yes" or show_instructions == "y":
@@ -7,4 +8,4 @@ while True:
     elif show_instructions == "no" or show_instructions == "n":
         print("Game starts here")
     else:
-        print('Your supposed to answer properly')
+        print('"', show_instructions, '"', 'isint a great answer You are supposed to answer properly, try yes or no')
