@@ -1,10 +1,9 @@
-name = ""
+# to join strings (string concatenation)
 
-while name.lower() != "xxx":
-    who = input("Who are you?")
-    print(who)
+my_name = "Miss G"
+fav_food = "Coffee"
 
-    print()
-    print("we done boii")
-
-exit()
+print(f"{my_name} really, really, loves {fav_food}")
+print("{} really loves her {}".format(my_name, fav_food))
+print(my_name, fav_food)
+print(my_name + fav_food)

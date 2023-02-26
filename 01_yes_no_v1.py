@@ -8,4 +8,4 @@ while show_instructions != "xxx":
     elif show_instructions == "no" or show_instructions == "n":
         print("Game starts here")
     else:
-        print('"', show_instructions, '"', 'isint a great answer You are supposed to answer properly, try yes or no')
+        print('"' + show_instructions + '"', 'isint a great answer You are supposed to answer properly, try yes or no')
